@@ -1,0 +1,51 @@
+/* Languages */
+
+/* List */
+
+.languages__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+/* Link */
+
+.languages__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--color-text-secondary);
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.languages__link:hover {
+			color: var(--color-text-primary);
+	}
+}
+
+.languages__link[aria-current] {
+	/*color: var(--color-text-primary);*/
+	/*font-weight: 500;*/
+}
+
+/* Separator */
+
+.languages__separator {
+	height: 20px;
+	width: 1.5px;
+	background-color: var(--color-antiflash);
+}
+
+/* Mobile Viewport */
+
+@media (width >= 320px) {
+	
+	/* List */
+
+	.languages__list {
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+	}
+
+}

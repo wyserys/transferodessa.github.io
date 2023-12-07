@@ -1,0 +1,52 @@
+/* Mobile Viewport */
+
+@media (width < 393px) {
+	:root {
+		--font-size-small: 1rem;
+		--font-size-normal: 1rem;
+		--font-size-link: 1.5rem;
+		--font-size-desc: 0.810rem;
+		--font-size-h3: 1rem;
+		--font-size-h2: 1.25rem;
+		--font-size-h1: 1.5rem;
+	}
+}
+
+@media (393px <= width < 1024px) {
+	:root {
+		--font-size-small: 1rem;
+		--font-size-normal: 1rem;
+		--font-size-link: 1.5rem;
+		--font-size-desc: 1rem;
+		--font-size-h3: 1rem;
+		--font-size-h2: 1.5rem;
+		--font-size-h1: 2rem;
+	}
+}
+
+/* Tablet Viewport */
+
+@media (1024px <= width < 1760px) {
+	:root {
+		--font-size-small: 1rem;
+		--font-size-normal: 1.125rem;
+		--font-size-link: 1rem;
+		--font-size-desc: 1.25rem;
+		--font-size-h3: 1.25rem;
+		--font-size-h2: 2rem;
+		--font-size-h1: 2.5rem;
+	}
+}
+
+/* Desktop Viewport */
+
+@media (width >= 1760px) {
+	:root {
+		--font-size-small: 1rem;
+		--font-size-normal: 1.125rem;
+		--font-size-link: 1rem;
+		--font-size-h3: 1.25rem;
+		--font-size-h2: 2rem;
+		--font-size-h1: 2.5rem;
+	}
+}

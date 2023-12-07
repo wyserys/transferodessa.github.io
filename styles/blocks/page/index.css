@@ -1,0 +1,36 @@
+/* Page */
+
+.page {
+	color: var(--color-text-primary);
+	background-color: var(--color-back-primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.page {
+			scroll-behavior: smooth;
+	}
+}
+
+/* Clip */
+
+.page--clip {
+	overflow: hidden;
+}
+
+/* Body */
+
+.page__body {
+	height: 100%;
+	margin: 0;
+	font-size: var(--font-size-normal);
+	line-height: 1.4;
+	font-family: var(--font-family-text);
+}
+
+/* Wrapper */
+
+.page__wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}

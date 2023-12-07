@@ -1,0 +1,63 @@
+/* Inter Variable */
+
+@font-face {
+	font-weight: 100 900;
+	font-family: 'Inter Variable';
+	font-style: oblique 0deg 10deg;
+	font-display: swap;
+	src: url("/fonts/inter-variable.woff2") format("woff2");
+}
+
+/* Inter Static */
+
+@font-face {
+	font-weight: 400;
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
+	src:
+		url("/fonts/inter-regular.woff2") format("woff2"),
+		url("/fonts/inter-regular.woff") format("woff");
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
+	src:
+		url("/fonts/inter-medium.woff2") format("woff2"),
+		url("/fonts/inter-medium.woff") format("woff");
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
+	src:
+		url("/fonts/inter-semibold.woff2") format("woff2"),
+		url("/fonts/inter-semibold.woff2") format("woff");
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
+	src:
+		url("/fonts/inter-bold.woff2") format("woff2"),
+		url("/fonts/inter-bold.woff") format("woff");
+}
+
+/* Variables */
+
+:root {
+	--font-family-text: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		--font-family-text: "Inter Variable", sans-serif;
+	}
+}

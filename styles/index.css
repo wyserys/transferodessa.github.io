@@ -1,0 +1,34 @@
+/* Global */
+
+@import url('global/fonts.css');
+@import url('global/box-model.css');
+@import url('global/focus.css');
+@import url('global/transitions.css');
+
+/* Fonts */
+
+@import url('colors/index.css');
+
+/* Sizes */
+
+@import url('sizes/index.css');
+
+/* Blocks */
+
+@import url('blocks/page/index.css');
+@import url('blocks/action/index.css');
+@import url('blocks/title/index.css');
+@import url('blocks/button/index.css');
+@import url('blocks/container/index.css');
+@import url('blocks/header/index.css');
+@import url('blocks/menu/index.css');
+@import url('blocks/links/index.css');
+@import url('blocks/languages/index.css');
+
+@import url('blocks/main/index.css');
+@import url('blocks/intro/index.css');
+@import url('blocks/advantage/index.css');
+@import url('blocks/price/index.css');
+@import url('blocks/about/index.css');
+@import url('blocks/messengers/index.css');
+@import url('blocks/footer/index.css');

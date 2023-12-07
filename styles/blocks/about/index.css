@@ -1,0 +1,31 @@
+.about {
+}
+.about__container {
+	padding-block: 112px;
+}
+.about__title {
+	margin-bottom: 80px;
+	text-align: center;
+}
+.about__text {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	color: var(--color-gray);
+}
+
+.about__text p {
+	margin: 0;
+}
+
+@media (width < 640px) {
+	.about__container {
+		padding-block: 80px;
+	}
+	.about__title {
+		margin-bottom: 48px;
+	}
+	.about__text {
+		flex-wrap: wrap;
+	}
+}

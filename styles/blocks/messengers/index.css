@@ -1,0 +1,61 @@
+.messengers {
+	background: #F0F4F5;
+}
+.messengers__container {
+	padding-block: 40px;
+}
+.messengers__text {
+	margin: 0;
+	max-width: 400px;
+}
+.messengers__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.messengers__item {
+}
+.messengers__link {
+}
+.button {
+}
+.button--color-secondary {
+}
+
+@media (width > 320px) {
+	.messengers__container {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 24px;
+		padding-block: 40px;
+	}
+
+	.messengers__list {
+		width: 100%;
+		max-width: 352px;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+}
+
+@media (width >= 830px) {
+	.messengers__container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.messengers__list {
+		width: 50%;
+		max-width: 824px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.messengers__item {
+		flex: 1;
+	}
+}

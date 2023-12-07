@@ -1,0 +1,46 @@
+/* Action */
+
+.action {
+	/*--action-hover-back: var();*/
+	--action-hover-text: var(--color-back-primary);
+
+	display: inline-flex;
+	align-items: center;
+	column-gap: 8px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	color: var(--color-text-primary);
+	line-height: 1;
+	font-size: inherit;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+/* Hover */
+
+@media (hover: hover) and (pointer: fine) {
+	.action--hover:hover {
+		/*background-color: var();*/
+		color: var(--color-text-accent);
+	}
+}
+
+/* Icon */
+
+.action__icon {
+	width: 24px;
+	height: 24px;
+}
+
+/* Fill */
+
+.action__icon--fill {
+	fill: var(--color-text-secondary);
+}
+
+.action__icon--fill:hover {
+	fill: var(--color-text-primary);
+}

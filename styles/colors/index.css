@@ -1,0 +1,22 @@
+:root {
+	--color-black: rgb(46, 54, 57);
+	--color-gray: rgb(109, 122, 128);
+
+	--color-green: rgb(0, 168, 59);
+	--color-yellow: rgb(255, 176, 21);
+
+	--color-white: rgb(255, 255, 255);
+	--color-antiflash: rgb(239, 243, 244);
+
+	--color-azure: rgb(240, 244, 245);
+	--color-lilac: rgb(123, 97, 255);
+
+	--color-back-primary: var(--color-white);
+	--color-back-secondary: var(--color-azure);
+
+	--color-text-primary: var(--color-black);
+	--color-text-secondary: var(--color-gray);
+	--color-text-accent: var(--color-green);
+
+	--color-focus-ring: var(--color-lilac);
+}
